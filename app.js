@@ -20,7 +20,7 @@ app.use(express.json())
 app.use('/user', user)
 // app.use('/post', post)
 
-app.get('/', (req, res)=>{
+app.get('/saman', (req, res)=>{
     res.send({'message':'default get'})
 })
 
