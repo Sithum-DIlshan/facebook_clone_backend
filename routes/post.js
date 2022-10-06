@@ -11,7 +11,7 @@ router.get('/', async (req, res) => {
     try {
         const posts = await Post.find()
         res.send(posts)
-    } catch (err) {
+    } catch (err) { 
 
     }
 })

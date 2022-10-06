@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const app = express()
 const port = 8000
 
-const url = 'mongodb://localhost/express'
+const url = 'mongodb+srv://sithum:sithum24@facebookapi.f8wcsjw.mongodb.net/fb_api?retryWrites=true&w=majority'
 
 mongoose.connect(url, {useNewUrlParser: true})
 const con = mongoose.connection
